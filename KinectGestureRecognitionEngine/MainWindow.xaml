@@ -1,0 +1,15 @@
+﻿<Window x:Class="KinectGestureRecognitionEngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:kinectGestureRecognitionEngine="clr-namespace:KinectGestureRecognitionEngine"
+        Title="MainWindow" Height="386" Width="611" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="CurrentConditionTextBox" x:FieldModifier="public" Height="50" Margin="337,100,31,153"/>
+        <TextBox x:Name="GestureNameTextBox" x:FieldModifier="public" Height="50" Margin="337,26,31,227"/>
+        <TextBox x:Name="PreviousTextBox" x:FieldModifier="public" Text="Previous distance: " Margin="10,253,303,65" />
+        <TextBox x:Name="CurrentTextBox" x:FieldModifier="public" Text="CurrentDistance: " Margin="10,295,303,24" />
+        <TextBox x:Name="RighTextBox" x:FieldModifier="public" HorizontalAlignment="Center" Width="100" Margin="10,10,493,169"/>
+        <TextBox x:Name="LeftTextBox" x:FieldModifier="public" HorizontalAlignment="Right" Width="100" Margin="0,10,350,169"/>
+        <TextBox x:Name="DistanceTextBox" x:FieldModifier="public" HorizontalAlignment="Right" Width="290" Margin="0,217,303,107"/>
+    </Grid>
+</Window>
